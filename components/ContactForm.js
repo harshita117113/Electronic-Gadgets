@@ -33,12 +33,16 @@ document.getElementById('contact').reset();
   return (
     <form onSubmit={submit} className={styles.cform} id='contact'>
     <div style={{display: 'flex'}}>
-        <label htmlFor="name"><input type="text" name="name" placeholder='Full Name' /></label>
-        <label htmlFor="email"><input type="email" name="email" placeholder='Email'  /></label>
-        <label htmlFor="phone"><input type="text" name='phone' placeholder='Whatsapp Number'  /></label>
+        <label htmlFor="name"></label>
+        <input type="text" name="name" placeholder='Full Name' />
+        <label htmlFor="email"></label>
+        <input type="email" name="email" placeholder='Email'  />
+        <label htmlFor="phone"></label>
+        <input type="text" name='phone' placeholder='Whatsapp Number'  />
     </div>
     <div >
-        <label htmlFor="msg"><input style={{width: '90%',display: 'block', margin:'30px auto',borderBottom: 'solid white 2px',paddingBottom:'20px',fontSize:'16px'}} type="text" name='msg' placeholder='Type a Message Here' /></label>
+        <label htmlFor="msg"></label>
+        <input style={{width: '90%',display: 'block', margin:'30px auto',borderBottom: 'solid white 2px',paddingBottom:'20px',fontSize:'16px'}} type="text" name='msg' placeholder='Type a Message Here' />
     </div>
     <div>
       <button type='submit' className={styles.subbutton}> Submit</button>
