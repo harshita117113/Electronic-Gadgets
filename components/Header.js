@@ -17,6 +17,7 @@ const Header = () => {
       alt=""
       className={styles.banner}
       priority={true}
+      configuration={false}
       />
       <Image
       src="/images/smartWatch.png" // Route of the image file
