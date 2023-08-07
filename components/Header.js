@@ -16,6 +16,7 @@ const Header = () => {
       width={1440} // Desired size with correct aspect ratio
       alt=""
       className={styles.banner}
+      priority={true}
       />
       <Image
       src="/images/smartWatch.png" // Route of the image file

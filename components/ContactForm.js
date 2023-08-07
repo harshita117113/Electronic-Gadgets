@@ -34,15 +34,15 @@ document.getElementById('contact').reset();
     <form onSubmit={submit} className={styles.cform} id='contact'>
     <div style={{display: 'flex'}}>
         <label htmlFor="name"></label>
-        <input type="text" name="name" placeholder='Full Name' />
+        <input type="text" name="name" id="name" placeholder='Full Name' />
         <label htmlFor="email"></label>
-        <input type="email" name="email" placeholder='Email'  />
+        <input type="email" name="email" id="email" placeholder='Email'  />
         <label htmlFor="phone"></label>
-        <input type="text" name='phone' placeholder='Whatsapp Number'  />
+        <input type="text" name='phone' id='phone' placeholder='Whatsapp Number'  />
     </div>
     <div >
         <label htmlFor="msg"></label>
-        <input style={{width: '90%',display: 'block', margin:'30px auto',borderBottom: 'solid white 2px',paddingBottom:'20px',fontSize:'16px'}} type="text" name='msg' placeholder='Type a Message Here' />
+        <input style={{width: '90%',display: 'block', margin:'30px auto',borderBottom: 'solid white 2px',paddingBottom:'20px',fontSize:'16px'}} type="text" name='msg' id='msg' placeholder='Type a Message Here' />
     </div>
     <div>
       <button type='submit' className={styles.subbutton}> Submit</button>
