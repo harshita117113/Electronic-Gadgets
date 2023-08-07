@@ -63,11 +63,13 @@ const Appointment = () => {
           />
         </div>
         <div className={styles.hour}>
-          Hour
+          <label htmlFor="time">
+            Hour
+          </label>
         </div>
         <form>
         <div>
-          <input type="time" value={time} onChange={setAppTime} className={styles.time} /> - <input type="time" value={etime} className={styles.time}/>  
+          <input type="time" value={time} name="time" onChange={setAppTime} className={styles.time} /> - <label htmlFor="etime"></label><input type="time" value={etime} name="etime" className={styles.time}/>  
         </div>
         <div>
           <button type='submit' onClick={setAppointment} className={styles.appbtn}>Make an Appointment</button>

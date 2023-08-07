@@ -217,20 +217,16 @@
     margin: 80px auto;
 }
 
-.cform label {
+.cform input {
     margin: 30px auto;
     border-style: hidden;
-    border-bottom: solid white 2px;
     background-color: #515151;
     color: white;
     width: 25%;
     font-size: 16px;
     padding-bottom: 20px;
-}
-
-.cform input {
-    background-color: #515151;
     border-style: hidden;
+    border-bottom: solid white 2px;
 }
 
 .subbutton {
@@ -262,10 +258,6 @@
     color: white;
     opacity: 0.3;
     background-color: #515151 !important;
-}
-
-.caltile --now {
-    background: rgba(0, 0, 0, 0.25);
 }
 
 .cal button:hover {
