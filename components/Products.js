@@ -49,7 +49,6 @@ const p=[
   const list = []
 
   for (const [i, product] of p.entries()) {
-    //list.push(<li>{product.img}</li>)
     list.push(<ProductCard img={product.img} pname={product.pname} price={product.price} link={product.link}/>)
   }
 
