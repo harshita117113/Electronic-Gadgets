@@ -37,7 +37,7 @@ const Gallery = () => {
     margin: 0,
     responsiveClass: true,
     nav: false,
-    dots: true,
+    dots: false,
     autoplay:true,
     smartSpeed: 1000,
     navClass: [styles.arrow,styles.arrowflip],
