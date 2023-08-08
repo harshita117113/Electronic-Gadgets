@@ -79,7 +79,7 @@ const Gallery = () => {
       <div>
         <span className={styles.heading}>Gallery</span>
         <ul className={styles.owlCarouselUl}>
-          <OwlCarousel
+          <li><OwlCarousel
             loop
             margin={0}
             nav={false}
@@ -112,7 +112,7 @@ const Gallery = () => {
               );
               })
             : ""}
-          </OwlCarousel>
+          </OwlCarousel></li>
         </ul>
       </div>
     </div>

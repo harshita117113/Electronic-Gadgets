@@ -306,6 +306,7 @@
 .owlCarouselUl {
     margin: 0px auto 80px;
     padding: 0px 80px;
+    list-style-type: none;
 }
 
 @media only screen and (max-width: 768px) {
