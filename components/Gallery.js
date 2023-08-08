@@ -40,21 +40,9 @@ const Gallery = () => {
     dots: false,
     autoplay:true,
     smartSpeed: 1000,
-    navClass: [styles.arrow,styles.arrowflip],
+    navClass:[],
     navText: [
-      <Image
-            src="/images/arrow.svg" 
-            height={50} 
-            width={50} 
-            alt=""
-            />,
-            <Image
-            src="/images/arrow.svg" 
-            height={50} 
-            width={50} 
-            alt=""
-            />
-    ],
+     ],
     responsive: {
       0: {
         items: 1,
@@ -82,11 +70,9 @@ const Gallery = () => {
           <li><OwlCarousel
             loop
             margin={0}
-            nav={false}
             navText={[
               
             ]}
-            dots={false}
             animateIn={true}
             {...options}
           >
