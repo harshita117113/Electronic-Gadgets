@@ -12,6 +12,7 @@ const ProductCard = (props) => {
             height={371} // Desired size with correct aspect ratio
             width={305} // Desired size with correct aspect ratio
             alt={pname}
+            className={styles.pimage}
         />
         <div className={styles.pdetails}>
         <div>

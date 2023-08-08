@@ -248,6 +248,11 @@
     color: white;
     background-color: #515151 !important;
     border: none !important;
+    padding: 5px;
+}
+
+.cal abbr {
+    text-decoration: none;
 }
 
 .cal button {
@@ -310,7 +315,7 @@
 }
 
 .invisible {
-    font-size: 10px;
+    font-size: 3px;
     color: #515151;
 }
 
@@ -322,7 +327,7 @@
     .intro,
     .heading,
     .gallery,
-    .cform {
+    .cform .owlCarouselUl {
         margin: 30px auto;
     }
     .heading {
@@ -345,5 +350,96 @@
     }
     .smart {
         margin-top: -70px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        width: 200px;
+        height: 100px;
+    }
+    .icon {
+        padding: 10px;
+        margin-bottom: -29px;
+        width: 43px;
+        height: 43px;
+    }
+    .cardheading {
+        font-size: 10px;
+    }
+    .carddesc {
+        font-size: 10px;
+    }
+    .socialMediaIcons {
+        width: 25px;
+        height: 25px;
+        margin: 8px;
+        padding: 4px;
+    }
+    .socialMedia {
+        margin: 25px;
+    }
+    .time {
+        padding: 2px;
+        font-size: 8px;
+        border-radius: 5px;
+    }
+    .appbtn {
+        padding: 8px;
+        font-size: 15px;
+    }
+    .hour {
+        font-size: 18px;
+    }
+    .calicon {
+        width: 30px;
+        height: 30px;
+    }
+    .flexdis div {
+        font-size: 12px;
+    }
+    .subheading {
+        font-size: 18px;
+    }
+    .owlCarouselUl {
+        padding: 40px;
+    }
+    .heading {
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .cal abbr {
+        font-size: 0.75em;
+    }
+    .pimage {
+        width: 150px;
+        height: 185px;
+    }
+    .pcard {
+        width: 150px;
+        height: 220px;
+    }
+    .pdetails {
+        font-size: 8px;
+    }
+    .productPrice {
+        font-size: 10px;
+    }
+    .productPrice svg {
+        width: 12px;
+    }
+    .waicon {
+        width: 25px;
+        height: 25px;
+        padding: 2px;
+    }
+    .pdisplay {
+        margin-bottom: 20px;
+    }
+    .electronicsGadgets {
+        font-size: 20px;
+    }
+    .intro {
+        font-size: 8px;
     }
 }
