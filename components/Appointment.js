@@ -68,7 +68,7 @@ const Appointment = () => {
           </label>
         </div>
         <div>
-          <input type="time" value={time} id="time" name="time" onChange={setAppTime} className={styles.time} /> - <label htmlFor="etime"></label><input type="time" value={etime} id="etime" name='etime' className={styles.time}/>  
+          <input type="time" value={time} id="time" name="time" onChange={setAppTime} className={styles.time} /> - <label htmlFor="etime"></label><input type="time" value={etime} name='etime' readOnly className={styles.time}/>  
         </div>
         <div>
           <button type='submit' onClick={setAppointment} className={styles.appbtn}>Make an Appointment</button>
