@@ -309,6 +309,11 @@
     list-style-type: none;
 }
 
+.invisible {
+    font-size: 10px;
+    color: #515151;
+}
+
 @media only screen and (max-width: 768px) {
     .businesscard {
         width: 90%;

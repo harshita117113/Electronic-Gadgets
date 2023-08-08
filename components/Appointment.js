@@ -66,9 +66,14 @@ const Appointment = () => {
           <label htmlFor="time">
             Hour
           </label>
+          <label htmlFor="etime">
+            <span className={styles.invisible}>
+              hour
+            </span>
+          </label>
         </div>
         <div>
-          <input type="time" value={time} id="time" name="time" onChange={setAppTime} className={styles.time} /> - <label htmlFor="etime"></label><input readonly type="time" value={etime} id="etime" name='etime' className={styles.time}/>  
+          <input type="time" value={time} id="time" name="time" onChange={setAppTime} className={styles.time} /> - <input readonly type="time" value={etime} id="etime" name='etime' className={styles.time}/>  
         </div>
         <div>
           <button type='submit' onClick={setAppointment} className={styles.appbtn}>Make an Appointment</button>
