@@ -327,7 +327,8 @@
     .intro,
     .heading,
     .gallery,
-    .cform .owlCarouselUl {
+    .cform,
+    .owlCarouselUl {
         margin: 30px auto;
     }
     .heading {
@@ -402,7 +403,8 @@
         font-size: 18px;
     }
     .owlCarouselUl {
-        padding: 40px;
+        padding: 0px 40px;
+        margin: 30px auto;
     }
     .heading {
         font-size: 20px;
