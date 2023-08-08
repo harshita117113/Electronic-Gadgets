@@ -365,10 +365,10 @@
         height: 43px;
     }
     .cardheading {
-        font-size: 10px;
+        font-size: 12px;
     }
     .carddesc {
-        font-size: 10px;
+        font-size: 12px;
     }
     .socialMediaIcons {
         width: 25px;
@@ -381,7 +381,7 @@
     }
     .time {
         padding: 2px;
-        font-size: 8px;
+        font-size: 12px;
         border-radius: 5px;
     }
     .appbtn {
@@ -412,18 +412,18 @@
         font-size: 0.75em;
     }
     .pimage {
-        width: 150px;
-        height: 185px;
+        width: 152.5px;
+        height: 185.5px;
     }
     .pcard {
         width: 150px;
         height: 220px;
     }
     .pdetails {
-        font-size: 8px;
+        font-size: 12px;
     }
     .productPrice {
-        font-size: 10px;
+        font-size: 12px;
     }
     .productPrice svg {
         width: 12px;
@@ -440,6 +440,6 @@
         font-size: 20px;
     }
     .intro {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
